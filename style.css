@@ -20,7 +20,7 @@
 		font-family: serif;
 		text-align:center;
 		position:relative;
-		font-size: clamp(1.0rem, 3vw + 1rem, 4rem)	
+		font-size: clamp(1.0rem, 3vw + 1rem, 4rem);
 		margin: 0;
 		padding-bottom: 1vw;
 	}
@@ -44,7 +44,7 @@
 	height: 2px;
 	width: 80%;
 	background-color:black;
-	transform-origin: 0.5 0;
+	transform-origin: 0.5em 0;
 }
 .line1 {
 	opacity: 1; 
@@ -58,7 +58,6 @@
 
 .content {
 	border:5px outset black;
-	border-radius:2;
 	height:100em;
 	width:40em;
 	background:lightpink;
@@ -86,7 +85,7 @@
 	float:right;
 	height:34px;
 	width:81px;
-	clear:all;
+	clear:both;
 }
 
 /* Link Styling */
