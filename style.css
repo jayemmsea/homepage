@@ -20,7 +20,7 @@
 		font-family: serif;
 		text-align:center;
 		position:relative;
-		font-size: clamp(0.8rem, 1rem, 2rem);
+		font-size: clamp(0.8rem, 1.5rem, 2rem);
 		margin: 0;
 		padding-bottom: 1vw;
 	}
@@ -58,7 +58,7 @@
 
 .content {
 	border:5px outset black;
-	height:80%;
+	height:25rem;
 	width:40em;
 	background:lightpink;
 	margin:auto;
