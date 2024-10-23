@@ -20,7 +20,7 @@
 		font-family: serif;
 		text-align:center;
 		position:relative;
-		font-size: clamp(0.8rem, 1.5rem, 2rem);
+		font-size: clamp(0.3rem, 1.5rem, 2rem);
 		margin: 0;
 		padding-bottom: 1vw;
 	}
