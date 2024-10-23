@@ -1,15 +1,4 @@
-a:link {
-	color:darkgreen;
-}
-a:visited {
-	color:darkgreen;
-}
-a:hover {
-	color:lightgreen;
-}
-a:active {
-	color: green;
-}
+/* Classes and IDs */
 .tbl {
 	height:80%;
 	width:95%;
@@ -44,27 +33,7 @@ a:active {
 	height:80%;
 }
 
-header {
-	width:100%;
-	
 
-}
-
-body {
-	background-image:url("bg.png");
-	background-size:100px 100px;;
-	background-repeat:repeat;
-}
-menu, menu.ul {
-	  display:flex;
-	  list-style: none;
-	  text-align:center;
-	  padding: 0;
-	  position:relative;
-  }
-li {
-	flex-grow:1;
-}
 
 .line {
 	position:absolute;
@@ -120,5 +89,40 @@ li {
 	clear:all;
 }
 
+/* Link Styling */
 
+a:link {
+	color:darkgreen;
+}
+a:visited {
+	color:darkgreen;
+}
+a:hover {
+	color:lightgreen;
+}
+a:active {
+	color: green;
+}
 
+/* Tag Styling */
+header {
+	width:100%;
+	
+
+}
+
+body {
+	background-image:url("bg.png");
+	background-size:100px 100px;;
+	background-repeat:repeat;
+}
+menu, menu.ul {
+	  display:flex;
+	  list-style: none;
+	  text-align:center;
+	  padding: 0;
+	  position:relative;
+  }
+li {
+	flex-grow:1;
+}
