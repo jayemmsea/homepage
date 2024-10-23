@@ -59,7 +59,7 @@
 .content {
 	border:5px outset black;
 	border-radius:2;
-	height:50%;
+	height:100em;
 	width:40em;
 	background:lightpink;
 	margin:auto;
